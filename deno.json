@@ -1,0 +1,18 @@
+
+{
+  "tasks": {
+    "dev": "deno run -A --watch=static/,routes/ dev.ts",
+    "build": "deno run -A dev.ts build",
+    "start": "deno run -A main.ts"
+  },
+  "imports": {
+    "@limette/core": "jsr:@limette/core@0.0.13",
+    "/lit": "npm:/lit@^3.2.0/",
+    "lit": "npm:lit@^3.2.0",
+    "tailwindcss": "npm:tailwindcss@^3.4.7"
+  },
+  "fmt": {
+    "singleQuote": true
+  },
+  "lock": false
+}
